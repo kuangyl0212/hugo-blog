@@ -1,0 +1,178 @@
+baseURL = "https://ousct.xyz/"
+defaultContentLanguage = "zh"
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
+googleAnalytics = ""
+hasCJKLanguage = true
+paginate = 7
+theme = "pure"
+title = "Random Forest"
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+title = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+title = "Archives"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+title = "Categories"
+url = "/categories"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+title = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/about"
+weight = 5
+
+[outputFormats]
+
+[outputFormats.SearchIndex]
+baseName = "searchindex"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[outputs]
+home = ["HTML", "RSS", "SearchIndex"]
+
+[params]
+dateFormatToUse = "2006-01-02"
+enablePostCopyright = false
+sidebar = "right"
+since = 2017
+widgets = ["board", "category", "tag", "recent_posts"]
+
+[params.comment]
+disqus = "your_disqus_name"
+#type = null  # To use: uncomment and replace null with value
+
+[params.comment.gitalk]
+#ClientID = null  # To use: uncomment and replace null with value
+#ClientSecret = null  # To use: uncomment and replace null with value
+#admin = null  # To use: uncomment and replace null with value
+#owner = null  # To use: uncomment and replace null with value
+#repo = null  # To use: uncomment and replace null with value
+
+[params.comment.valine]
+#appid = null  # To use: uncomment and replace null with value
+#appkey = null  # To use: uncomment and replace null with value
+avatar = "mm"
+meta = "nick,mail"
+#notify = null  # To use: uncomment and replace null with value
+pageSize = 10
+placeholder = "enjoy~"
+#verify = null  # To use: uncomment and replace null with value
+visitor = false
+
+[params.config]
+excerpt_link = "Read More"
+layout = "main-center"
+#skin = null  # To use: uncomment and replace null with value
+toc = true
+
+[params.donate]
+enable = false
+
+[params.donate.alipay]
+qrcode = "donate/alipayimg.png"
+title = "支付宝"
+
+[params.donate.wechatpay]
+qrcode = "donate/wechatpayimg.png"
+title = "微信支付"
+
+[params.menuIcons]
+about = "icon-cup-fill"
+archives = "icon-archives-fill"
+books = "icon-book-fill"
+categories = "icon-folder"
+enable = true
+home = "icon-home-fill"
+links = "icon-friendship"
+repository = "icon-project"
+tags = "icon-tags"
+
+[params.postCount]
+enable = true
+min2read = true
+wordcount = true
+
+[params.profile]
+author = "Yuri Kuang"
+author_description = "Good Good Study, Day Day Up~"
+author_title = "Stay hungry, stay foolish"
+avatar = "avatar.jpg"
+enabled = true
+follow = "https://github.com/kuangyl0212"
+#gravatar = null  # To use: uncomment and replace null with value
+location = "Guangzhou, China"
+
+[params.profile.social]
+link_tooltip = false
+
+[params.profile.social.links]
+github = "https://github.com/kuangyl0212"
+rss = "/index.xml"
+
+[params.pv]
+
+[params.pv.busuanzi]
+enable = false
+
+[params.pv.leancloud]
+#app_id = null  # To use: uncomment and replace null with value
+#app_key = null  # To use: uncomment and replace null with value
+enable = false
+
+[params.search]
+enable = true
+
+[params.share]
+enable = true
+mobile_sites = "weibo,qq,qzone"
+sites = "weibo,qq,wechat,facebook,twitter"
+
+[params.site]
+board = "<p>enjoy~</p>"
+favicon = "favicon.ico"
+title = "Hugo"
+
+[params.site.logo]
+enabled = true
+height = 40
+url = "favicon.ico"
+width = 40
+
+[permalinks]
+posts = "/:year/:month/:filename/"
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
