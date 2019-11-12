@@ -350,9 +350,7 @@ else
     </div>
   </article>
 <section id="comments">
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
+    <div id="vcomments"></div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -431,17 +429,26 @@ hljs.initHighlightingOnLoad();
       </script>
 <script type="text/javascript" src="https://ousct.xyz/js/insight.js"></script>
 
-<script defer>
-    var disqus_config = function () {
-        this.page.url = 'https:\/\/ousct.xyz\/2019\/07\/2019-07-18-dichotomy\/';
-        this.page.identifier = 'randomforest';
-    };
-    (function () {
-        var d = document, s = d.createElement('script');
-        s.src = '//' + 'randomforest' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine"></script>
+<script type="text/javascript">
+    var GUEST = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail';
+    meta = meta.split(',').filter(function (item) {
+        return GUEST.indexOf(item) > -1;
+    });
+    new Valine({
+        el: '#vcomments',
+        verify: null ,
+        notify: null ,
+        appId: 'YlYYiwI05kQq2lEcaSbBmyv7-gzGzoHsz',
+        appKey: '2Ac2NkB2382Ub8S5PM9EEDA9',
+        placeholder: 'enjoy~',
+        avatar: 'mm',
+        meta: meta,
+        pageSize: '10' || 10,
+        visitor: false 
+});
 </script>
   </body>
 </html>
