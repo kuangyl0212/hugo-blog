@@ -83,8 +83,8 @@ params:
     enabled: true # Whether to show profile bar
     avatar: avatar.jpg
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-    author: Yulin Kuang
-    author_title: author title
+    author: Yuri Kuang
+    author_title: Stay hungry, stay foolish
     author_description: Good Good Study, Day Day Up~
     location: Guangzhou, China
     follow: https://github.com/kuangyl0212
