@@ -23,11 +23,11 @@ tags:
 
 如图所示：
 
-![dichotomy_1]({{site.url}}/assets/images/dichotomy_1.png)
+![dichotomy_1](images/dichotomy_1.png)
 
 在这个图中，x是红色的，也就是说分界点x处于左边的区间
 
-![dichotomy_2]({{site.url}}/assets/images/dichotomy_2.png)
+![dichotomy_2](images/dichotomy_2.png)
 
 在这个图中，x是绿色的，也就是说分界点x处在右边的区间
 
