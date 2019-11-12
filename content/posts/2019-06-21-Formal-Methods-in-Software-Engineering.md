@@ -108,15 +108,15 @@ date: 2019-06-13 17:18 +0800
 ```
 // Assignment primitive
 <varible> := <expression>
-x := e {variable x takes on the value of expression e}
+x := e // variable x takes on the value of expression e
 // Output primitive
 <destination process> ! <expression>
-A ! e {output the value of expression e to process A}
+A ! e // output the value of expression e to process A
 // Input primitive
 <source process< ? <variable>
-B ? x {from process B input to var x}
+B ? x // from process B input to var x
 // Concurrent excution
-[<process> \|\| <process> <\|\| <process> ... >]
+[<process> || <process> <|| <process> ... >]
 // Iteration
 *[...]
 // Dijkstra's Guarded Commands
