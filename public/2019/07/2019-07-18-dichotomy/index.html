@@ -42,7 +42,7 @@
 
 <meta itemprop="datePublished" content="2019-07-18T19:27:34&#43;08:00" />
 <meta itemprop="dateModified" content="2019-07-18T19:27:34&#43;08:00" />
-<meta itemprop="wordCount" content="1210">
+<meta itemprop="wordCount" content="1208">
 
 
 
@@ -61,6 +61,22 @@
     <![endif]-->
 
 </head>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: { 
+          inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+          processEscapes: true
+        },
+        "HTML-CSS": {
+          availableFonts: [],
+          preferredFont: null,
+          webFont: "STIX-Web",
+          imageFont: null
+        }
+      });
+  </script>
+  <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
   </head>
   <body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
     <div class="slimContent">
@@ -230,7 +246,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/07/2019-07-18-dichotomy/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计:1210字</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计:1208字</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长:3分 </span>
       </div>
     </div>
@@ -313,7 +329,7 @@ else
 <p>&gt;&gt;表示位运算的右移运算，右移一位即除以2，在除以2之前加+相当于上取整，这是什么操作？</p>
 
 <p>现在假设r = l + 1，也就是整个区间只有两个元素，如果采用下取整的除法（C++默认），
-那么得到的此时$$ mid = \lfloor\frac{l + r}{2}\rfloor = \lfloor\frac{2l + 1}{2}\rfloor = l $$，
+那么得到的此时$$ mid = \lfloor\frac{l + r}{2}\rfloor = \lfloor\frac{2l + 1}{2}\rfloor = l $$
 新的区间[mid, r]就是[l, r]，也就是说区间没有得到更新，算法将陷入死循环。</p>
 
 <p>实际上，熟练以后并不需要对于这两个模板分别记忆，只需要注意一下，写代码的时候如果遇到</p>
