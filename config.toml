@@ -64,8 +64,9 @@ since = 2017
 widgets = ["board", "category", "tag", "recent_posts"]
 
 [params.comment]
-disqus = "your_disqus_name"
-#type = null  # To use: uncomment and replace null with value
+disqus = "randomforest"
+type = "disqus"
+ # To use: uncomment and replace null with value
 
 [params.comment.gitalk]
 #ClientID = null  # To use: uncomment and replace null with value
