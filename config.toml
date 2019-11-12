@@ -6,42 +6,42 @@ googleAnalytics = ""
 hasCJKLanguage = true
 paginate = 7
 theme = "pure"
-title = "Random Forest"
+title = "数星"
 
 [menu]
 
 [[menu.main]]
 identifier = "home"
 name = "Home"
-title = "Home"
+title = "首页"
 url = "/"
 weight = 1
 
 [[menu.main]]
 identifier = "archives"
 name = "Archives"
-title = "Archives"
+title = "归档"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
-title = "Categories"
+title = "分类"
 url = "/categories"
 weight = 3
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
-title = "Tags"
+title = "标签"
 url = "/tags"
 weight = 4
 
 [[menu.main]]
 identifier = "about"
 name = "About"
-title = "About"
+title = "关于"
 url = "/about"
 weight = 5
 
@@ -123,7 +123,7 @@ wordcount = true
 
 [params.profile]
 author = "Yuri Kuang"
-author_description = "Good Good Study, Day Day Up~"
+author_description = "Stay hungry, stay foolish"
 author_title = "Stay hungry, stay foolish"
 avatar = "avatar.jpg"
 enabled = true
@@ -153,8 +153,8 @@ enable = true
 
 [params.share]
 enable = true
-mobile_sites = "weibo,qq,qzone"
-sites = "weibo,qq,wechat,facebook,twitter"
+mobile_sites = "weibo,qq,wechat"
+sites = "weibo,qq,wechat"
 
 [params.site]
 board = "<p>enjoy~</p>"
