@@ -28,5 +28,23 @@
       <description>二分算法的本质 我们经常把二分和单调性联系起来，实际上，二分和单调性并不是直接相关的。或者说，具有单调性的问题可以用二分来解决，而二分并不是只</description>
     </item>
     
+    <item>
+      <title>Numpy备忘录</title>
+      <link>https://ousct.xyz/2018/09/2018-09-23-numpy-memo/</link>
+      <pubDate>Wed, 12 Sep 2018 19:54:42 +0800</pubDate>
+      
+      <guid>https://ousct.xyz/2018/09/2018-09-23-numpy-memo/</guid>
+      <description>一、矩阵创建 1. 从python list创建： &amp;gt;&amp;gt;&amp;gt; import numpy as np &amp;gt;&amp;gt;&amp;gt; np.array([1,2,3]) array([1, 2, 3]) 2. 创建指定维度的矩阵 &amp;gt;&amp;gt;&amp;gt; np.ndarray([3,3]) array([[6.91547902e-310, 6.91547902e-310, 3.24515130e-109], [1.33360310e+241, 1.84714205e+241, 3.50129306e-311], [1.93049258e+241, 3.50129306e-311, 1.97869600e-293]]) 注意到此时的矩阵元素并没有被初始化为</description>
+    </item>
+    
+    <item>
+      <title>软件工程中的形式化方法小结</title>
+      <link>https://ousct.xyz/1/01/2019-06-21-formal-methods-in-software-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ousct.xyz/1/01/2019-06-21-formal-methods-in-software-engineering/</guid>
+      <description>什么是形式化方法？ 形式化方法企图以数学的方式来描述软件系统，从而保证软件的正确性。 数学是准确的建模媒体，能够对现象、对象、动作等进行简洁、准</description>
+    </item>
+    
   </channel>
 </rss>
