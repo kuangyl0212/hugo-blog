@@ -65,7 +65,7 @@ widgets = ["board", "category", "tag", "recent_posts"]
 
 [params.comment]
 disqus = "randomforest"
-type = "disqus"
+type = "valine"
  # To use: uncomment and replace null with value
 
 [params.comment.gitalk]
@@ -76,8 +76,10 @@ type = "disqus"
 #repo = null  # To use: uncomment and replace null with value
 
 [params.comment.valine]
-#appid = null  # To use: uncomment and replace null with value
-#appkey = null  # To use: uncomment and replace null with value
+appid = "YlYYiwI05kQq2lEcaSbBmyv7-gzGzoHsz"  
+# To use: uncomment and replace null with value
+appkey = "2Ac2NkB2382Ub8S5PM9EEDA9"
+# To use: uncomment and replace null with value
 avatar = "mm"
 meta = "nick,mail"
 #notify = null  # To use: uncomment and replace null with value
