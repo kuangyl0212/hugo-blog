@@ -1,0 +1,3 @@
+备忘
+用deploy.sh部署 不要手动推送
+部署是仅上传public文件夹的内容到GitHub(源码和public在GitHub是分两个库存储的)
